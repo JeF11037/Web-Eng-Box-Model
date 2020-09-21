@@ -1,0 +1,56 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background: #99ff99;
+}
+
+.main {
+    background: #b2e9eb;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    font-size: 0%;
+}
+
+.main > div {
+    height: 200px;
+    width: 200px;
+    margin: 50;
+    border: solid 2px #000000;
+    box-sizing: border-box;
+    display: inline-block;
+
+    transition-duration: 0.5s;
+}
+
+.main > .redsquare:hover {
+    transform: rotateY(360deg);
+}
+
+.main > .greensquare:hover {
+    transform: rotateX(360deg);
+}
+
+.main > .bluesquare:hover {
+    transform: rotateZ(360deg);
+}
+
+.main > .redcircle:hover, .greencircle:hover, .bluecircle:hover {
+    opacity: 0%;
+}
+
+.main > .redcircle, .greencircle, .bluecircle {
+    border-radius: 50%;
+}
+
+.redcircle, .redsquare {
+    background: #ff0000;
+}
+
+.greencircle, .greensquare {
+    background: #00ff00;
+}
+
+.bluecircle, .bluesquare {
+    background: #0000ff;
+}

@@ -1,0 +1,35 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background: #99ff99;
+}
+
+.main {
+    background: #b2e9eb;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    font-size: 0%;
+}
+
+.main > div {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: auto;
+    border: solid 2px #000000;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.red {
+    background: #ff0000;
+}
+
+.green {
+    background: #00ff00;
+}
+
+.blue {
+    background: #0000ff;
+}
